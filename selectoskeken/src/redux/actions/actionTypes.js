@@ -1,0 +1,1 @@
+export const GET_LOGGED_STATE = 'GET_LOGGED_STATE';

@@ -1,0 +1,27 @@
+.form-container{
+    gap: 2rem
+}
+
+.checkout-body {
+    background: var(--white-bg);
+    border-radius: 15px;
+    padding: 3rem 5rem;
+}
+
+.red-font {
+    color: var(--red-font);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .checkout-body{
+        padding: 2rem 1rem;
+        gap: 1em;
+        max-width: 95vw !important;
+    }
+
+    .gradient-bg{
+        padding: 0;
+    }
+
+}

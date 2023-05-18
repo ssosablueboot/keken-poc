@@ -1,0 +1,33 @@
+.mapa-item-div-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 121px;
+    height: 174px;
+}
+
+.mapa-item-img{
+    max-width: 70px;
+    max-height: 67px;
+}
+
+.mapa-item-titulo{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+}
+
+.mapa-item-sub-listado{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* or 114% */
+
+letter-spacing: 0.002em;
+}

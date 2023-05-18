@@ -1,0 +1,25 @@
+{
+    "xsappname": "selectoskeken",
+    "tenant-mode": "dedicated",
+    "description": "",
+    "scopes": [{
+        "name": "$XSAPPNAME.ReadAnyUser",
+        "description": "Read information from any user"
+    }],
+    "role-templates": [
+        {
+            "name": "Token_Exchange",
+            "description": "UAA",
+            "scope-references": [
+                "uaa.user"
+            ]
+        },
+        {
+            "name": "ReadAnyUser",
+            "description": "Read information from any user",
+            "scope-references": [
+                "$XSAPPNAME.ReadAnyUser"
+            ]
+        }
+    ]
+}

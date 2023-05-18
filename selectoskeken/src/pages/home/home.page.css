@@ -1,0 +1,114 @@
+.custom-sub-footer-home{
+    background-image: url("../../images/sub-footer-home.svg");    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 615px;
+}
+
+.custom-div-sub-footer-home{
+    width: 100%;
+    margin: 6% 6%;   
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.custom-div-sub-footer-home-texto{
+    background: rgba(150, 150, 150, 0.6);
+    width: 30%;   
+    border-radius: 10px;    
+    /* background-color: gray; */
+}
+
+.custom-div-sub-footer-home-texto-div{
+    margin: 5%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+.hr-text{
+    width: 100%;
+    color: #E5CB65;
+    margin: 0% 10%;
+    border-top: 2px solid;
+    opacity: 1!important;
+    margin: 3% 0%;
+}
+
+.background-gradient-seccion-parrilla{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.74) 19.27%, #000000 100%);
+    height: 699px;
+}
+
+.background-seccion-subcarousel{
+    background: #000000;
+    height: 853px;
+}
+
+.background-seccion-encuentranos{
+    background-image: url("../../images/encuentranos.png"); 
+    /* background: linear-gradient(180deg, #000000 3.73%, rgba(0, 0, 0, 0) 40.99%); */
+    height: 322px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.background-seccion-validacion-cp{
+    background-image: url("../../images/validacion_cp.svg");  
+    height: 474px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-i-btn-validacion{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.h1-validacion{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.i-validacion{
+    width: 200%;
+    border: 1.5px solid #E5CB65;
+    transform: rotate(0.09deg);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+}
+
+.txt-validacion{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+/* .custom-img-sub-footer{
+    background-image: url("../../images/sub-footer-home.svg");    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 615px;
+} */

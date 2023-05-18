@@ -1,0 +1,60 @@
+.overview-title-cont {
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.title-h3 {
+    font-size: 1.2rem;
+    line-height: normal;
+}
+
+.title-total {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+    text-transform: uppercase;
+}
+
+.checkout-items-container {
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.login-remember {
+    margin: 0;
+    margin-top: 2rem;
+}
+.login-remember > p {
+    text-align: left;
+    font-family: var(--fontText);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+
+    letter-spacing: 0.002em;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-total {
+        font-size: 1.8rem;
+        line-height: normal;
+    }
+
+    .checkout-items-container{
+        gap: .5rem !important;
+    }
+
+    .login-remember{
+        margin-top: 1rem;
+    }
+
+    .title-description {
+        margin-top: 0;
+        font-size: 15px;
+    }
+}

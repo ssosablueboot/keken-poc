@@ -1,0 +1,84 @@
+.delivery-info {
+    margin-bottom: 2rem;
+}
+
+.title-h3 {
+    display: flex;
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    /* text-align: left; */
+}
+.title-description {
+    font-family: var(--fontText);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    /* margin-top: 1rem;
+    margin-bottom: 2.5rem; */
+}
+.address-row {
+    padding: 0;
+}
+
+.address-input {
+    display: flex;
+    width: 70%;
+    padding: .5rem 1rem;
+    margin: .5rem 0;
+}
+
+.address-input > span {
+    color: #4C4E56;
+    margin-right: .25rem;
+    font-weight: 600;
+}
+
+.cp-main-container {
+    width: fit-content;
+    margin-top: 2rem;
+}
+
+.cp-input-container {
+    width: fit-content;
+}
+
+.validate-input {
+    display: flex;
+    width: fit-content;
+    padding: .5rem 1rem;
+    margin: .5rem 0;
+}
+
+.input-feedback {
+    text-align: left !important
+}
+
+.input-radio {
+    width: 50%;
+
+}
+
+.validate-btn {
+    width: fit-content;
+    padding: .25rem 1rem;
+    margin: 0;
+    height: fit-content;
+}
+
+
+.btn-submit{
+    width: fit-content;
+    padding: .5rem 3rem;
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    .address-input {
+        width: 100%;
+    }
+}

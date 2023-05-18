@@ -1,0 +1,17 @@
+{
+  "welcomeFile": "/index.html",
+  "authenticationMethod": "route",
+  "routes": [
+    {
+      "source": "^/api_management_dbkuo/(.*)$",
+      "target": "/api_management_dbkuo/$1",
+      "destination": "api_management_dbkuo",
+      "authenticationType": "xsuaa"
+    },
+    {
+      "source": "(.*)",
+      "target": "/selectoskeken/$1",
+      "service": "html5-apps-repo-rt"
+    }
+  ]
+}

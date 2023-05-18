@@ -1,0 +1,215 @@
+.btn-dorado {
+  background: linear-gradient(180deg, #E5CB65 0%, #7A5D28 100%);
+  border-radius: 7px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.002em;
+  text-transform: uppercase;
+  border-width: inherit;
+  width: 100%;
+  margin: 2% 24%;
+  height: 39px;  
+  border-color: black;
+}
+
+.btn-dorado:hover{
+  background: none;
+  border: 2px solid;
+  border-color: linear-gradient(180deg, #E5CB65 0%, #7A5D28 100%);
+  /* Button */
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.002em;
+    text-transform: uppercase;
+
+    /* Gradiente Dorado */
+
+    color: #E5CB65;
+
+}
+
+.text-color-white {
+  color: white;
+}
+
+.text-color-gold {
+  color: #E5CB65;
+}
+
+.img-carousel {
+  width: 100%;
+}
+
+.background-color-gradient-black-grey {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.74) 83.33%);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mg-top-10-px {
+  margin-top: 10px;
+}
+
+.mg-top-16-px {
+  margin-top: 16px;
+}
+
+.mg-top-20-px {
+  margin-top: 20px;
+}
+
+.mg-bottom-16-px {
+  margin-bottom: 16px;
+}
+
+.pd-10-px{
+  padding: 10px;
+}
+
+.swiper-pagination-bullet > img {
+  content: url('./icons/carousel/inactive-bullet.png');
+}
+
+.swiper-pagination-bullet-active>img {
+  content: url('./icons/carousel/active-bullet.png');
+}
+
+.swiper-pagination-bullet {
+  opacity: inherit !important;
+  background: none !important;
+  display: inline !important;
+}
+
+.pagination-bullet {
+  width: 19px !important;
+  height: 19px !important;
+}
+
+.App-space {
+  padding-top: 110px;
+  padding-left: 3em;
+  padding-right: 4em;
+}
+
+
+.Text-main-list {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.Text-main-list-left {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 20px;
+  list-style: none;
+  text-align: left;
+}
+
+.Text-content-list {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.Text-header-list-font {
+  text-align: left;
+  font-weight: bold;
+}
+
+.Text-header-font {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.Text-content {
+  text-align: justify;
+  padding-bottom: 20px;
+
+}
+
+.cont-flex {
+  display: flex;
+}
+
+.cont-block {
+  display: block
+}
+
+.gradient-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  padding: 3rem 0rem;
+  /* Gradient Oscuro 1 */
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.74) 83.33%);
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.grey-input {
+  border: none !important;
+  border-bottom: 1px solid grey !important;
+}
+
+.golden-input {
+  border: none !important;
+  border-bottom: 1px solid #E5CB65 !important;
+}

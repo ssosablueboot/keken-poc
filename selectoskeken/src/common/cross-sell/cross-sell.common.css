@@ -1,0 +1,64 @@
+.background-cross-sell-gradient{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.74) 19.27%, #000000 100%);
+    height: auto;
+}
+
+.background-cross-sell-img{
+    background-color: #000000;
+    background-image: url("../../images/producto/complementa-tu-parrilla.png");
+    height: auto;
+    width: 100%;
+    /* background-position: center; */
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.div-cabecera-cross-sell{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 5%;
+    margin-bottom: 56px;
+}
+
+.h1-cabecera-cross-sell{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    color:white;
+    text-transform: uppercase;
+}
+
+.text-cabecera-cross-sell{
+    color:white;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.div-items-cross-sell{
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.cont-btn-cross-sell {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.cont-btn-cross-sell > *{
+    color: var(--light-font);
+}
+
+.swiper-slide-width-none{
+    width: auto!important;
+}

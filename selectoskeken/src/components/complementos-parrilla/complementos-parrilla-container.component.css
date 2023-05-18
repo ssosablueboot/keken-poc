@@ -1,0 +1,59 @@
+.background-seccion-complementos-parrilla-gradient{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.74) 19.27%, #000000 100%);
+    height: auto;
+}
+
+.background-seccion-complementos-parrilla-img{
+    background-color: #000000;
+    background-image: url("../../images/producto/complementa-tu-parrilla.png");
+    height: auto;
+    width: 100vw;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.div-cabecera-seccion-complementos-parrilla{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 5%;
+    margin-bottom: 56px;
+}
+
+.h1-seccion-complementos-parrilla{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    color:white;
+}
+
+.text-seccion-complementos-parrilla{
+    color:white;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.items-seccion-complementos-parrilla{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+.cont-btn-cross-sell {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+.cont-btn-cross-sell > *{
+    color: var(--light-font);
+}

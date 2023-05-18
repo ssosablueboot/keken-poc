@@ -1,0 +1,121 @@
+.carousel-categoria-container {}
+
+.carousel-categoria-subcontainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.carousel-categoria-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: 120px;
+    margin-right: 25px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.carousel-categoria-container-nav-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 120px;
+}
+
+.carousel-categoria-nav-button {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border-width: inherit;
+}
+
+.inner-carousel-categoria-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.inner-carousel-categoria-imagen {
+    border-radius: 5px 5px 5px 5px;
+    max-width: 740px;
+    max-height: 447px;
+}
+
+.inner-carousel-categoria-div-imagen {
+    padding: 40px;
+    flex: 0.7;
+}
+
+.inner-carousel-categoria-div-texto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    text-align: left;
+    padding-top: 40px;
+    margin-right: 40px;
+    flex: 0.3;
+}
+
+.inner-carousel-categoria-div-texto-titulo {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.002em;
+    text-transform: uppercase;
+}
+
+.inner-carousel-categoria-div-texto-descripcion {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.002em;
+}
+
+.inner-carousel-categoria-div-precio-agregar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 52px;
+}
+
+.inner-carousel-categoria-button-menos-mas{
+    background-color: transparent;
+    background-color: transparent;
+    background-color: transparent;
+    color: #E5CB65;
+    border-width: inherit;
+    width: 32px;
+    height: 32px;
+}
+
+.inner-carousel-categoria-texto-precio{    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.inner-carousel-categoria-icon-info{
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+}
+
+.inner-carousel-categoria-texto-aprox-kilo{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+

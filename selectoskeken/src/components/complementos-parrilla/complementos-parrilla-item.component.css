@@ -1,0 +1,94 @@
+.div-img-complementos-parrilla-item{
+    position: relative;
+}
+
+.img-complementos-parrilla-item{
+    border-radius: 5%;
+    margin: 1%;
+}
+
+.btn-complementos-parrilla-item-like{
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    position: absolute;
+    background-color: transparent;
+    color:white;
+    border-width: inherit;
+    width: 25px;
+    height: 25px;
+}
+
+.btn-complementos-parrilla-item-menos-mas{
+    background-color: transparent;
+    background-color: transparent;
+    background-color: transparent;
+    color: #E5CB65;
+    border-width: inherit;
+    width: 32px;
+    height: 32px;
+}
+
+.btn-complementos-parrilla-agregar-item{
+    margin: 0px!important;
+}
+
+.div-complementos-parrilla-agregar-item{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.span-complementos-parrilla-item-img-descripcion{
+    color: WHITE;
+    position: absolute;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    transform: translate(50%,-50%);
+    bottom: -10px;
+    right: 50%;
+    inline-size: max-content;
+}
+
+.span-complementos-parrilla-item-contador{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 21px;
+}
+
+.div-precio-complementos-parrilla-item{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.div-complementos-parrilla-item-peso-aprox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text-complementos-parrilla-precio{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+}
+
+.text-complementos-parrilla-peso{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 12px;
+}

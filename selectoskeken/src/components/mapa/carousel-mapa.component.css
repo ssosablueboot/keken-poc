@@ -1,0 +1,8 @@
+.background-seccion-encuentranos{
+    background-image: url("../../images/encuentranos.png"); 
+    /* background: linear-gradient(180deg, #000000 3.73%, rgba(0, 0, 0, 0) 40.99%); */
+    height: 322px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}

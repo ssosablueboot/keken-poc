@@ -1,0 +1,42 @@
+.cabecera-producto-img{
+    /* max-width: 1280px; */
+    height: 346px;
+    width: 100%;
+    background-image: url("../../images/producto/cabecera.png");
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecera-producto-titulo{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.cabecera-producto-descripcion{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.div-producto-productos{
+    padding: 40px 90px 40px 90px;
+}
+
+.div-producto-item-padding{
+    padding: 10px 10px 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}

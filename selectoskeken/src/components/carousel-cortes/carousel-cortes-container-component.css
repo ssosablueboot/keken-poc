@@ -1,0 +1,30 @@
+.carousel-cortes-container {
+    height: 853px;
+    background-color: black;
+    padding: 72px 62px 40px 62px;
+    position: relative;
+}
+
+.carousel-cortes-subcontainer {
+    border-color: #E5CB65;
+    border-style: solid;
+    height: 100%;
+}
+
+.carousel-cortes-container-texto-cabecera {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 40px;
+    position: absolute;
+    background: black;
+    padding-left: 70px;
+    padding-right: 70px;
+    transform: translate(50%,-50%);
+    right: 50%;
+}
+
+.carousel-cortes-categoria-container{
+    padding-top: 70px;
+}

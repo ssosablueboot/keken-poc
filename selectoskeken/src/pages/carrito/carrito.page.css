@@ -1,0 +1,239 @@
+
+/*  CONTENEDOR DE LAS DOS CARDS BLANCAS GRANDES */
+
+
+.purchases-section {
+    /* tus compras */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px 171px;
+    gap: 10px;
+
+    width: 100vw;
+    height: auto;
+
+    /* Gradient Oscuro 1 */
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.74) 83.33%);
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.purchases-sub-container {
+    /* contenido */
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px;
+    gap: 20px;
+}
+
+.purchases-items-container {
+    /* lista productos */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 4rem;
+    gap: 3rem;
+    background: var(--white-bg);
+    border-radius: 10px;
+    width: auto;
+}
+
+.purchases-total-container {
+    /* Pago */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 50px;
+    gap: 10px;
+    width: auto;
+    height: auto;
+    background: var(--white-bg);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+    /* flex: none; */
+    order: 1;
+    flex-grow: 0;
+}
+
+.purchases-buy-more-container {
+    /* compra mas */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 35px;
+    gap: 10px;
+    width: 550px;
+    height: 73px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.purchases-buy-more-container>p {
+    /* width: 308px; */
+    height: 42px;
+
+    /* Body Md */
+    font-family: var(--fontText);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 131% */
+    text-align: center;
+    letter-spacing: 0.002em;
+
+    /* Negro */
+    color: #000000;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.purchases-links-container {
+    gap: 2rem;
+}
+
+.purchases-links-container>* {
+    font-family: var(--fontText);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: underline;
+    color: var(--dark-font);
+}
+
+/* ESTILOS AL CONTENDOR DEL TOTAL (TOTAL + BOTON DORADO) */
+
+.purchases-total-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.purchases-total-container>p {
+    width: 100%;
+    display: block;
+    font-family: var(--fontText);
+    font-size: 21px;
+    margin: 0;
+    line-height: 21px;
+    text-align: left;
+}
+
+.purchases-total-container>span {
+    text-align: center;
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.purchases-total-container>button {
+    /* margin: 0; */
+    width: fit-content;
+    height: 40px;
+    padding: 6px 65px;
+    font-family: var(--font);
+    font-weight: 500;
+    background-color: transparent;
+}
+
+
+/* ESTILOS CROSS SELL SECTION */
+.cont-cross-sell {
+    /* position: relative; */
+    width: 100vw;
+    /* height: 1000px; */
+    background-color: #000000;
+}
+
+.background-cross-sell {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* position: absolute; */
+}
+
+
+/* DISEÑO RESPONSIVE XS (0px < 600px) */
+@media only screen and (max-width: 600px) {
+    .purchases-section {
+        flex-direction: column;
+        padding: 0;
+        width: 100vw;
+    }
+
+    .purchases-sub-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .purchases-items-container {
+        padding: 1rem;
+        width: 90vw;
+        gap: 1.5rem;
+    }
+
+    .purchases-buy-more-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .purchases-links-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .purchases-total-container {
+        width: 90vw;
+    }
+
+    .purchases-total-container > span {
+        font-size: 30px;
+    }
+
+    
+    .purchases-total-container > p {
+        font-size: 21px;
+    }
+
+    .purchases-total-container > button {
+        transform: scale(1.5);
+    }
+}
+
+/* DISEÑO RESPONSIVE SM (600px < 960px) */
+/* DISEÑO RESPONSIVE MD (960px < 1280px) */
+/* DISEÑO RESPONSIVE LG (1280px < 1920px) */
+/* DISEÑO RESPONSIVE XL (1920x < N px) */

@@ -1,0 +1,60 @@
+.custom-navbar
+{
+    height: 90px;
+    display: flex;
+    background-color: black;
+    opacity: 0.8;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 10px;    
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 98%;
+}
+
+.width-10-pc
+{
+    width: 10%;
+}
+
+.navbar-button
+{
+    color:white;
+    margin: 2%;
+    font-weight: bold;
+    align-self: center;
+    text-decoration: none;
+}
+
+.navbar-button:hover{
+    color: #E5CB65;
+}
+
+.navbar-button:active{
+    color: #E5CB65;
+}
+
+.navbar-button-icon
+{
+    align-self: center;
+    width: 35px;
+    height: 35px;
+    margin: 1%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-button-icon:hover{
+    color: #E5CB65;
+}
+
+.navbar-img
+{
+    cursor: pointer;
+    padding-left: 1%;
+    width: auto;
+    height: 80%;
+}

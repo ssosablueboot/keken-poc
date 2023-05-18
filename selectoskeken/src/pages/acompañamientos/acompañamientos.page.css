@@ -1,0 +1,11 @@
+.div-acompañamiento-acompañamientos{
+    padding: 40px 90px 40px 90px;
+}
+
+.div-acompañamiento-item-padding{
+    padding: 10px 10px 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
